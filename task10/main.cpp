@@ -12,5 +12,10 @@ int main()
     double* maxII = 0;
 
     change_max(arrI, arrII, maxI, maxII, n, m);
+    
+    delete[]arrI;
+    delete[]arrII;
+    delete maxI;
+    delete maxII;
 
 }
